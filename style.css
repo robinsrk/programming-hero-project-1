@@ -16,6 +16,7 @@ h1 {
 }
 .half-width img {
 	width: 80%;
+	height: 600px;
 }
 .top-banner {
 	background-image: url("images/developer-portfolio/top-banner.png");
