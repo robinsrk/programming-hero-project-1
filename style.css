@@ -1,5 +1,5 @@
 body {
-	font-family: 'Redressed', cursive;
+	font-family: "Redressed", cursive;
 	margin: 0px;
 }
 .name-highlight {
@@ -16,7 +16,6 @@ h1 {
 }
 .half-width img {
 	width: 80%;
-	height: auto;
 }
 .top-banner {
 	background-image: url("images/developer-portfolio/top-banner.png");
@@ -32,5 +31,40 @@ h1 {
 	border-radius: 5px;
 	margin-top: 20px;
 	padding: 10px 20px;
-	background-image: linear-gradient(45deg, #ff3150 ,#ff3183)
+	background-image: linear-gradient(45deg, #ff3150, #ff3183);
+}
+.first-title {
+	color: orangered;
+}
+.second-title {
+	color: #ff3183;
+}
+
+p {
+	font-family: ubuntu;
+	color: dimgray;
+}
+.second-banner {
+	background-image: url("images/developer-portfolio/dream-bg.png");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.experience-area {
+	background-image: url("images/developer-portfolio/exp-bg.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.single-experience {
+	box-shadow: 10px 10px 40px grey;
+	border-radius: 10px;
+}
+#full-stack {
+	border-left: 5px solid;
+	border-image: linear-gradient(180deg, lightsalmon, tomato);
+	border-image-slice: 1;
+}
+#baby-developer {
+	border-left: 5px solid;
+	border-image: linear-gradient(180deg, )
 }
